@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="#FFFFFF">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:fillViewport="true">
+        <LinearLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp" />
+    </ScrollView>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="72dp" android:orientation="horizontal" android:gravity="center" android:background="#FFFFFF">
+        <Button android:id="@+id/navHome" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="Home" android:textAllCaps="false" />
+        <Button android:id="@+id/navStudy" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="Study" android:textAllCaps="false" />
+        <Button android:id="@+id/navQuiz" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="Quiz" android:textAllCaps="false" />
+    </LinearLayout>
+</LinearLayout>
